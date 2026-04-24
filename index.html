@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cocina con sabor a hogar: guisados caseros, sazón tradicional y atención cálida."
+    />
+    <title>Cocina con sabor a hogar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a href="#inicio" class="brand" aria-label="Ir al inicio">
+          <img src="assets/logo-con-sabor.png" alt="Logo de Cocina con sabor a hogar" />
+          <span>Cocina con sabor a hogar</span>
+        </a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="menu-links">
+          Menu
+        </button>
+        <ul class="nav-links" id="menu-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#acerca">Acerca</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero__overlay"></div>
+        <div class="hero__content container">
+          <p class="hero__tagline">Sabor casero y tradición familiar</p>
+          <h1>Cocina con sabor a hogar</h1>
+          <p>
+            Disfruta guisados preparados con ingredientes frescos, recetas de
+            casa y ese toque mexicano que reconforta desde la primera cucharada.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#menu">Ver menú</a>
+            <a
+              class="btn btn--outline"
+              href="https://wa.me/524532470061?text=Hola,%20buenos%20dias%20quiero%20realizar%20un%20pedido%20%F0%9F%9A%BA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Realizar pedido 😺
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section reveal" id="acerca">
+        <div class="container about__grid">
+          <article>
+            <p class="section__eyebrow">Acerca de nosotros</p>
+            <h2>Comida que abraza, como en casa</h2>
+            <p>
+              En Cocina con sabor a hogar cocinamos como nos enseñaron en
+              familia: con paciencia, ingredientes naturales y mucho corazón.
+              Cada platillo busca recordarte los sabores de hogar.
+            </p>
+          </article>
+          <aside class="about__card">
+            <h3>Platillos destacados</h3>
+            <ul>
+              <li>Morisqueta chica - $25</li>
+              <li>Morisqueta grande - $35</li>
+              <li>Tacos dorados (6 piezas) - $30</li>
+              <li>Guisados con arroz y frijoles - $65</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="menu-photo section reveal" id="menu">
+        <div class="container">
+          <p class="section__eyebrow">Menú</p>
+          <h2>Menú con sabor a hogar</h2>
+          <figure class="menu-photo__card">
+            <img src="assets/menu-comida.png" alt="Menú de comida de Cocina con sabor a hogar" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="gallery section reveal" id="galeria">
+        <div class="container">
+          <p class="section__eyebrow">Galería</p>
+          <h2>Nuestros platillos</h2>
+          <div class="gallery__grid">
+            <figure class="gallery__item">
+              <!-- REEMPLAZA ESTA IMAGEN POR TU FOTO DEL PLATILLO 1 -->
+              <img src="assets/galeria-1.png" alt="Platillo 1 del restaurante" />
+            </figure>
+            <figure class="gallery__item">
+              <!-- REEMPLAZA ESTA IMAGEN POR TU FOTO DEL PLATILLO 2 -->
+              <img src="assets/galeria-2.png" alt="Platillo 2 del restaurante" />
+            </figure>
+            <figure class="gallery__item">
+              <!-- REEMPLAZA ESTA IMAGEN POR TU FOTO DEL PLATILLO 3 -->
+              <img src="assets/galeria-3.png" alt="Platillo 3 del restaurante" />
+            </figure>
+            <figure class="gallery__item">
+              <!-- REEMPLAZA ESTA IMAGEN POR TU FOTO DEL PLATILLO 4 -->
+              <img src="assets/galeria-4.png" alt="Platillo 4 del restaurante" />
+            </figure>
+            <figure class="gallery__item">
+              <!-- REEMPLAZA ESTA IMAGEN POR TU FOTO DEL PLATILLO 5 -->
+              <img src="assets/galeria-5.png" alt="Platillo 5 del restaurante" />
+            </figure>
+            <figure class="gallery__item">
+              <!-- REEMPLAZA ESTA IMAGEN POR TU FOTO DEL PLATILLO 6 -->
+              <img src="assets/hero-platillo.png" alt="Platillo 6 del restaurante" />
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer reveal" id="contacto">
+      <div class="container footer__grid">
+        <div>
+          <h3>Cocina con sabor a hogar</h3>
+          <p>Sabores tradicionales con ingredientes frescos todos los días.</p>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <p>Tel: 453 247 0061</p>
+          <p>Tel: 453 111 6908</p>
+        </div>
+        <div>
+          <h4>Dirección</h4>
+          <p>José Manuel de Herrera #705, Apatzingán, México</p>
+        </div>
+        <div>
+          <h4>Redes sociales</h4>
+          <p>
+            <a href="https://www.facebook.com/people/Con-sabor-a-hogar/61581696180584/" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Con sabor a hogar">Facebook</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
