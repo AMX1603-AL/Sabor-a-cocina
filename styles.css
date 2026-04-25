@@ -86,11 +86,23 @@ a {
 .menu-toggle {
   display: none;
   border: 1px solid rgba(20, 83, 63, 0.25);
-  border-radius: 999px;
+  border-radius: 50%;
   background: var(--white);
-  padding: 0.45rem 0.9rem;
-  font-weight: 700;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
   color: var(--green-700);
+}
+
+.menu-toggle__line {
+  width: 20px;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
 }
 
 .nav-links {
