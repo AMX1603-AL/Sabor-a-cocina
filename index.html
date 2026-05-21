@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Con Sabor a Hogar: guisados caseros, sazón tradicional y atención cálida."
+    />
+    <title>Con Sabor a Hogar</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a href="#inicio" class="brand" aria-label="Ir al inicio">
+          <img src="assets/logo-con-sabor.png" alt="Logo de Con Sabor a Hogar" />
+          <span>Con Sabor a Hogar</span>
+        </a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="menu-links" aria-label="Abrir menú">
+          <span class="menu-toggle__line" aria-hidden="true"></span>
+          <span class="menu-toggle__line" aria-hidden="true"></span>
+          <span class="menu-toggle__line" aria-hidden="true"></span>
+        </button>
+        <ul class="nav-links" id="menu-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#acerca">Acerca</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#resenas">Reseñas</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero__overlay"></div>
+        <div class="hero__content container">
+          <p class="hero__tagline">Sabor casero y tradición familiar</p>
+          <h1>Con Sabor a Hogar</h1>
+          <p>
+            Disfruta guisados preparados con ingredientes frescos, recetas de
+            casa y ese toque mexicano que reconforta desde la primera cucharada.
+          </p>
+          <p class="hero__schedule">
+            <span class="schedule-days">LUNES A VIERNES</span>
+            <span class="schedule-sep" aria-hidden="true"> — </span>
+            <span class="schedule-hours">9:00 AM A 4:30 PM</span>
+          </p>
+          <div class="hero__actions">
+            <a
+              class="btn btn--primary btn--whatsapp"
+              href="https://wa.me/524532470061?text=Buenos%20dias,%20esta%20disponible%3F"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.33 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.91-7.01Zm-7 15.24h-.01a8.2 8.2 0 0 1-4.18-1.14l-.3-.18-3.12.82.83-3.04-.2-.31a8.18 8.18 0 0 1-1.25-4.39c0-4.53 3.69-8.22 8.23-8.22 2.2 0 4.26.86 5.82 2.41a8.16 8.16 0 0 1 2.41 5.82c-.01 4.54-3.7 8.23-8.23 8.23Zm4.51-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.22-1.45-1.36-1.7-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.76-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.57c.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.16-.48-.28Z" />
+              </svg>
+              Contáctanos
+            </a>
+            <a
+              class="btn btn--maps"
+              href="https://www.google.com/maps/place/COCINA+CON+SABOR+A+HOGAR/@19.081911,-102.3581252,21z/data=!4m6!3m5!1s0x8431e175d9af7813:0xa93f653630e749bb!8m2!3d19.0819454!4d-102.357956!16s%2Fg%2F11x_4k0dd4?entry=ttu&g_ep=EgoyMDI2MDQyMi4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="btn__icon btn__icon--maps" viewBox="0 0 32 32" aria-hidden="true">
+                <defs>
+                  <clipPath id="maps-pin-shape">
+                    <path d="M16 1.8C9.84 1.8 4.85 6.78 4.85 12.92c0 7.98 8.86 12.22 10.33 16.38.29.82 1.35.82 1.64 0 1.47-4.16 10.33-8.4 10.33-16.38C27.15 6.78 22.16 1.8 16 1.8Z" />
+                  </clipPath>
+                </defs>
+                <g clip-path="url(#maps-pin-shape)">
+                  <path class="maps-blue" d="M2 0h30v13.8H2Z" />
+                  <path class="maps-green" d="M15.5 13.2 32 0v32H13.1Z" />
+                  <path class="maps-yellow" d="M0 32V14.4l10.2-1.2 5.3 5.6L13.1 32Z" />
+                  <path class="maps-red" d="M0 0h12.3l-2.1 13.2L0 14.4Z" />
+                  <path class="maps-blue-dark" d="M12.3 0H32L15.5 13.2l-5.3 0Z" />
+                </g>
+                <circle class="maps-center" cx="16" cy="12.92" r="5.1" />
+              </svg>
+              Ubícanos
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section reveal" id="acerca">
+        <div class="container about__grid">
+          <article>
+            <p class="section__eyebrow">Acerca de nosotros</p>
+            <h2>Comida que abraza, como en casa</h2>
+            <p>
+              En Con Sabor a Hogar cocinamos como nos enseñaron en
+              familia: con paciencia, ingredientes naturales y mucho corazón.
+              Cada platillo busca recordarte los sabores de hogar.
+            </p>
+          </article>
+          <aside class="about__card">
+            <h3>Platillos destacados</h3>
+            <ul>
+              <li>Morisqueta chica - $25</li>
+              <li>Morisqueta grande - $35</li>
+              <li>Tacos dorados (6 piezas) - $30</li>
+              <li>Guisados con arroz y frijoles - $70</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="menu-photo section reveal" id="menu">
+        <div class="container">
+          <p class="section__eyebrow">Menú</p>
+          <h2>Menú con sabor a hogar</h2>
+          <figure class="menu-photo__card">
+            <img src="assets/menu-comida.jpeg" alt="Menú de comida de Con Sabor a Hogar" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="gallery section reveal" id="galeria">
+        <div class="container">
+          <p class="section__eyebrow">Galería</p>
+          <h2>Nuestros platillos</h2>
+          <div class="gallery__grid">
+            <figure class="gallery__item">
+              <!-- REEMPLAZA ESTA IMAGEN POR TU FOTO DEL PLATILLO 1 -->
+              <img src="assets/galeria-1.png" alt="Platillo 1 del restaurante" />
+            </figure>
+            <figure class="gallery__item">
+              <!-- REEMPLAZA ESTA IMAGEN POR TU FOTO DEL PLATILLO 2 -->
+              <img src="assets/galeria-2.png" alt="Platillo 2 del restaurante" />
+            </figure>
+            <figure class="gallery__item">
+              <!-- REEMPLAZA ESTA IMAGEN POR TU FOTO DEL PLATILLO 3 -->
+              <img src="assets/galeria-3.png" alt="Platillo 3 del restaurante" />
+            </figure>
+            <figure class="gallery__item">
+              <!-- REEMPLAZA ESTA IMAGEN POR TU FOTO DEL PLATILLO 4 -->
+              <img src="assets/galeria-4.png" alt="Platillo 4 del restaurante" />
+            </figure>
+            <figure class="gallery__item">
+              <!-- REEMPLAZA ESTA IMAGEN POR TU FOTO DEL PLATILLO 5 -->
+              <img src="assets/galeria-5.png" alt="Platillo 5 del restaurante" />
+            </figure>
+            <figure class="gallery__item">
+              <!-- REEMPLAZA ESTA IMAGEN POR TU FOTO DEL PLATILLO 6 -->
+              <img src="assets/hero-platillo.png" alt="Platillo 6 del restaurante" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews section reveal" id="resenas">
+        <div class="container">
+          <div class="reviews__header">
+            <div>
+              <p class="section__eyebrow">Reseñas</p>
+              <h2>Lo que dicen nuestros clientes</h2>
+            </div>
+            <a class="reviews__google-link" href="https://www.google.com/maps/place/COCINA+CON+SABOR+A+HOGAR/@19.081911,-102.3581252,21z/data=!4m6!3m5!1s0x8431e175d9af7813:0xa93f653630e749bb!8m2!3d19.0819454!4d-102.357956!16s%2Fg%2F11x_4k0dd4?entry=ttu&g_ep=EgoyMDI2MDQyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+              Ver todas en Google
+            </a>
+          </div>
+          <div class="reviews__summary">
+            Clientes que ya probaron nuestro sabor casero nos recomiendan en Google.
+          </div>
+          <div class="reviews__grid">
+            <article class="review-card">
+              <div class="review-card__top">
+                <span class="review-card__avatar review-card__avatar--photo">J</span>
+                <div>
+                  <p class="review-card__author">Jesus Armando Diaz Santoyo</p>
+                  <p class="review-card__date">Hace 5 meses</p>
+                </div>
+              </div>
+              <div class="review-card__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+              <p class="review-card__text">Comida muy rica recomendado</p>
+              <span class="review-card__source">Reseña de Google</span>
+            </article>
+
+            <article class="review-card">
+              <div class="review-card__top">
+                <span class="review-card__avatar review-card__avatar--orange">L</span>
+                <div>
+                  <p class="review-card__author">Luna Nocturna</p>
+                  <p class="review-card__date">Hace 4 meses</p>
+                </div>
+              </div>
+              <div class="review-card__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+              <p class="review-card__text">
+                Excelente servicio, muy rica la comida la atención de calidad.
+              </p>
+              <span class="review-card__source">Reseña de Google</span>
+            </article>
+
+            <article class="review-card">
+              <div class="review-card__top">
+                <span class="review-card__avatar review-card__avatar--sky">J</span>
+                <div>
+                  <p class="review-card__author">jose guadalupe Morfin andrade</p>
+                  <p class="review-card__date">Hace 4 meses</p>
+                </div>
+              </div>
+              <div class="review-card__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+              <p class="review-card__text">
+                Algo rico y saludable, una atención de calidad y sabores sin igual.
+              </p>
+              <span class="review-card__source">Reseña de Google</span>
+            </article>
+
+            <article class="review-card">
+              <div class="review-card__top">
+                <span class="review-card__avatar review-card__avatar--teal">F</span>
+                <div>
+                  <p class="review-card__author">Fernando Perez</p>
+                  <p class="review-card__date">Hace 6 días</p>
+                </div>
+              </div>
+              <div class="review-card__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+              <p class="review-card__text">Excelente experiencia.</p>
+              <span class="review-card__source">Reseña de Google</span>
+            </article>
+
+            <article class="review-card">
+              <div class="review-card__top">
+                <span class="review-card__avatar review-card__avatar--purple">D</span>
+                <div>
+                  <p class="review-card__author">Denisse Cruz</p>
+                  <p class="review-card__date">Hace 4 meses</p>
+                </div>
+              </div>
+              <div class="review-card__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+              <p class="review-card__text">Excelente servicio.</p>
+              <span class="review-card__source">Reseña de Google</span>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer reveal" id="contacto">
+      <div class="container footer__grid">
+        <div>
+          <h3>Con Sabor a Hogar</h3>
+          <p>Sabores tradicionales con ingredientes frescos todos los días.</p>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <p>Tel: 453 247 0061</p>
+          <p>Tel: 453 111 6908</p>
+        </div>
+        <div>
+          <h4>Dirección</h4>
+          <p>José Manuel de Herrera #705, Apatzingán, México</p>
+        </div>
+        <div>
+          <h4>Redes sociales</h4>
+          <p>
+            <a href="https://www.facebook.com/people/Con-sabor-a-hogar/61581696180584/" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Con sabor a hogar">Facebook</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
